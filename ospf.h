@@ -142,11 +142,12 @@ class MyNode{//data structure which stores command line arguments
 		Neighbours sample;
 		if( extract[0] == id ){
 			sample.id = extract[1];
+			neigh.push_back(sample);
 		}
 		else if( extract[1] == id ){
 			sample.id = extract[0];
+			neigh.push_back(sample);
 		}
-		neigh.push_back(sample);
 	}
 }myself;
 #endif

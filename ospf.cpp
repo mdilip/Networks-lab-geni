@@ -1,10 +1,11 @@
-/* This is code for which implements the ospf node
+/* Created by Margam Dilip Kumar
+ * This is code for which implements the ospf node
  * There is a Makefile which compiles this code
  * Command to run after compilation './ospf -i id -f infile -o outfile -h hi -a lsai -s spfi'
  * This node communicates with neighbouring nodes and learn the topology, also find the
  * shortest path using djikstra's algorithm
  * cost of every link changes every lsa seconds
- * example: ./ospf -i 5 -f infile7.txt -o outfile -h 10 -a 15 -s 70
+ * example: ./ospf -i 0 -f infile_geni.txt -o outfile -h 10 -a 15 -s 70
  */
  
 #include "ospf.h"
